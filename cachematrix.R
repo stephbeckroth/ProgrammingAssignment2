@@ -4,8 +4,7 @@
 ## Write a short comment describing this function
 
 ## The function will create a special "matrix" object
-## that can cache its inverse and the dimension. Note
-## that all invertible matrices must have nrows = ncols.
+## that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   invx <- NULL
